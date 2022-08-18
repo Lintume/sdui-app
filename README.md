@@ -17,6 +17,7 @@
 ### Installation instructions:
 - Clone project
 - Set up .env file (copy .env.example file)
+- `composer install`
 - `php artisan serve`
 - `php artisan migrate`
 - `npm install`
