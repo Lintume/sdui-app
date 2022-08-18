@@ -16,6 +16,7 @@
 
 ### Installation instructions:
 - `git clone git@github.com:Lintume/sdui-app.git`
+- `cd sdui-app`
 - `cp .env.example .env`
 - `touch database/database.sqlite file`
 - Set up absolute path to database/database.sqlite file in .env file (DB_DATABASE)
