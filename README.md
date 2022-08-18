@@ -18,7 +18,7 @@
 - `git clone git@github.com:Lintume/sdui-app.git`
 - `cp .env.example .env`
 - `touch database/database.sqlite file`
-- - Set up absolute path to database/database.sqlite in DB_DATABASE var
+- Set up absolute path to database/database.sqlite in DB_DATABASE var
 - `composer install`
 - `php artisan serve`
 - `php artisan migrate`
