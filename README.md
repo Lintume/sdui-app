@@ -22,9 +22,11 @@
 - Set up absolute path to database/database.sqlite file in .env file (DB_DATABASE)
 - `composer install`
 - `php artisan serve`
+- open new terminal window
 - `php artisan migrate`
 - `npm install`
 - `npm run dev`
+- open new terminal window
 - `php artisan test`
 - Enjoy!
 

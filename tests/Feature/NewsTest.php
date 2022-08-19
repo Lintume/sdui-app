@@ -71,7 +71,7 @@ class NewsTest extends TestCase
     /** @test */
     public function authorized_user_can_update_the_news()
     {
-        //Given we have a signed in user
+        //Given we have a signed-in user
         $this->actingAs(User::factory()->create());
 
         //And a news which is created by the user
@@ -88,7 +88,7 @@ class NewsTest extends TestCase
     /** @test */
     public function authorized_user_can_delete_the_news()
     {
-        //Given we have a signed in user
+        //Given we have a signed-in user
         $this->actingAs(User::factory()->create());
 
         //And a news which is created by the user
